@@ -38,8 +38,10 @@ The relevant data for the dataset was extracted by using Beautiful Soup. I wrote
 * amount of sugar information
 * description (includes the ingredients which will be extracted in the future steps)
 
+<img src='./images/image3.png' width=600>
+
 #### I extracted the mentioned information for each cocktail one by one and concatenated the outputs in the last step, so that the pandas dataframe looks like this:
-<img src='./images/image2.PNG' width=600>
+<img src='./images/image2.PNG' width=700>
 <br/>
 <br/>
 
