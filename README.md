@@ -11,6 +11,7 @@
     + [Part 4- Model Building](#part-4--model-building)
     + [Part 5- Flask Server](#part-5--flask-server)
     + [Part 6- Project Limitation](#part-6--project-limitation)
+    <br/>
     
     <img src='./images/image1.jpg' width=580>
 
