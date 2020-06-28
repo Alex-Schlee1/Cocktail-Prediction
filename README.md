@@ -49,7 +49,7 @@ After storing the necessary data in a csv file and opening the dataframe by usin
 * From the 'cocktail name' column I removed every string element so that the cell only contains the cocktail name without any additions
 * I created a column for each ingredient. A Python- function looped through the description column and returned a '1' if the particular ingredient is present in a given cocktail, otherwise it returned a '0'
 * The Python- function looped searched for the following ingredients:
-  * pineapple       * pineapple
+  * pineapple       
   * rum
   * coconut
   * mint
@@ -58,8 +58,15 @@ After storing the necessary data in a csv file and opening the dataframe by usin
   * vodka
   * peach
   * orange
-
-
+  * cranberry 
+  * cachaça
+  * cola 
+  * gin
+  * tequila
+  * tomato 
+  * pepper 
+  * grenadine 
+  * cherry
 
 
 
