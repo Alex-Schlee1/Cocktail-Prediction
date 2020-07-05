@@ -1,17 +1,11 @@
-# Cocktail-Prediction
+# Data Scraping with Beautiful Soup
 
 + [Table of Contents](#sub-sub-heading-1)
    + [Credits](#credits)
    + [Project Goal and procedure](#project-goal-and-procedure)
    + [Code and Resources](#code-and-resources)
-   + [Part 1- Scraping Data using Beautiful Soup](#part-1--scraping-data-using-beautiful-soup)
-   + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
-   + [Part 3- Exploratory Data Analysis](#part-3--exploratory-data-analysis)
-   + [Part 4- Model Building](#part-4--model-building)
-   + [Part 5- Flask Server](#part-5--flask-server)
-   + [Part 6- Project Limitation](#part-6--project-limitation)
-   <br/>
-    
+   + [Scraping Data using Beautiful Soup](#scraping-data-using-beautiful-soup)
+
  <img src='./images/image1.jpg' width=580>
 
 ### Credits: 
@@ -21,13 +15,12 @@ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6Bh
 * Goal: Build a Logistic Regression Model to predict Cocktails based on selected ingredients
 * Scraped cocktail information from [www.bbcgoodfood.com](https://www.bbcgoodfood.com/)  
 * Dataset was scraped using Python and BeautifulSoup
-* Saved results in a csv file and manipulated and worked with the data using the pandas package
-* Visualization of data using seaborn and matplotlib packages
+* Saved results in a csv file and opened with Python's pandas package
 
 ### Code and Resources
 * Python Version: 3.7
 * Environment: Jupyter Notebook
-* Packages: Beautiful Soup, Matplotlib, Seaborn, Numpy, Pandas
+* Packages: Beautiful Soup, Matplotlib, Pandas
 <br/>
 <br/>
 
@@ -44,31 +37,3 @@ The relevant data for the dataset was extracted by using Beautiful Soup. I wrote
 <img src='./images/image2.PNG' width=700>
 <br/>
 <br/>
-
-
-# Part 2- Data Cleaning and Feature Engineering
-After storing the necessary data in a csv file and opening the dataframe by using the pandas dataframe, I cleaned the data entries to make the dataframe machine readable:
-* From the 'cocktail name' column I removed every string element so that the cell only contains the cocktail name without any additions
-* I created a column for each ingredient. A Python- function looped through the description column and returned a '1' if the particular ingredient is present in a given cocktail, otherwise it returned a '0'
-* The Python- function looped searched for the following ingredients:
-  * pineapple       
-  * rum
-  * coconut
-  * mint
-  * lime
-  * lemon
-  * vodka
-  * peach
-  * orange
-  * cranberry 
-  * cachaça
-  * cola 
-  * gin
-  * tequila
-  * tomato 
-  * pepper 
-  * grenadine 
-  * cherry
-
-
-
