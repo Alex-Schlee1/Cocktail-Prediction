@@ -24,7 +24,7 @@ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6Bh
 <br/>
 <br/>
 
-# Part 1- Scraping Data using Beautiful Soup
+# Scraping Data using Beautiful Soup
 The relevant data for the dataset was extracted by using Beautiful Soup. I wrote a script which was able to scrape the following information:
 * Cocktail name
 * amount of calories per serving
