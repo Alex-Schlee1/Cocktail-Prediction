@@ -18,7 +18,7 @@ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6Bh
 * Saved results in a csv file and opened with Python's pandas package
 
 ### Code and Resources
-* Python Version: 3.7
+* Python Version: 3.8
 * Environment: Jupyter Notebook
 * Packages: Beautiful Soup, Matplotlib, Pandas
 <br/>
